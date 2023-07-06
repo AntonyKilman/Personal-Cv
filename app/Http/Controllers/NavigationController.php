@@ -18,13 +18,6 @@ class NavigationController extends Controller
 
     public function SendMail(Request $request)
     {
-        // return $request;
-        // $request->validate([
-        //     'name' => 'required',
-        //     'email' => 'required|email|regex:/(.*)\./i|',
-        //     'phone' => 'required|min:10|max:10',
-        //     'message' => 'max:255',
-        // ]);
 
         $content_data = [
             'name' => $request->name,
